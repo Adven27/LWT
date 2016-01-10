@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="new_word">#87CEFA</color>
+    <color name="dict_word">#FFFF00</color>
+    <color name="select_word">#FF0000</color>
+    <color name="known_word">#FFFFFF</color>
+    <color name="transparent">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_tab_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zyz.mobile.example.ObservableScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <ViewSwitcher
+            android:id="@+id/mainviewswitcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:bufferType="spannable"
+                android:text="Oops! Not found..."
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mainwebview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ViewSwitcher>
+    </com.zyz.mobile.example.ObservableScrollView>
+
+</RelativeLayout>

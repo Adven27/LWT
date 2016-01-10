@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="panelHeight" format="dimension" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="paralaxOffset" format="dimension" />
+        <attr name="fadeColor" format="color" />
+        <attr name="flingVelocity" format="integer" />
+        <attr name="dragView" format="reference" />
+        <attr name="overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="loadingDrawable" format="reference" />
+        <attr name="loadingText" format="reference|string" />
+        <attr name="selectedText" format="reference|string" />
+        <attr name="unselectedText" format="reference|string" />
+        <attr name="loading" format="reference|boolean" />
+        <attr name="autoDisableClickable" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SmoothProgressBar">
+        <attr name="spbStyle" format="reference" />
+        <attr name="spb_color" format="color" />
+        <attr name="spb_stroke_width" format="dimension" />
+        <attr name="spb_stroke_separator_length" format="dimension" />
+        <attr name="spb_sections_count" format="integer" />
+        <attr name="spb_speed" format="float" />
+        <attr name="spb_progressiveStart_speed" format="float" />
+        <attr name="spb_progressiveStop_speed" format="float" />
+        <attr name="spb_interpolator" format="enum">
+            <enum name="spb_interpolator_accelerate" value="0" />
+            <enum name="spb_interpolator_linear" value="1" />
+            <enum name="spb_interpolator_acceleratedecelerate" value="2" />
+            <enum name="spb_interpolator_decelerate" value="3" />
+        </attr>
+        <attr name="spb_reversed" format="boolean" />
+        <attr name="spb_mirror_mode" format="boolean" />
+        <attr name="spb_colors" format="reference" />
+        <attr name="spb_progressiveStart_activated" format="boolean" />
+        <attr name="spb_background" format="reference" />
+        <attr name="spb_generate_background_with_colors" format="boolean" />
+        <attr name="spb_gradients" format="boolean" />
+    </declare-styleable>
+
+</resources>

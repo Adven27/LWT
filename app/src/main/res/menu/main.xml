@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigationdrawerexample.MainActivity">
+    <item
+        android:id="@+id/clear_base"
+        android:title="@string/clear_base"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/restart"
+        android:title="@string/restart"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_webmode"
+        android:icon="@drawable/quickaction_arrow_down"
+
+        android:title="@string/action_webmode" />
+    <item
+        android:id="@+id/action_websearch"
+        android:icon="@drawable/menu_search"
+
+        android:title="@string/action_websearch" />
+</menu>
